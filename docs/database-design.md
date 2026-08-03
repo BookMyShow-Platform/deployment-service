@@ -77,12 +77,21 @@ status
 amount
 paymentStatus
 
-bookinSeat
+bookingSeat
 --------
 id(long)
 bookingId
 showSeatId
 price
 
+payment
+-------
+id(long)
+bookingSeatId
+amount
+paymentMethod
+status
+transationId
+createdAt
 
 
